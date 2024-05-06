@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 100%;
+            height: 500px;
+            
+            border: 3px solid black;
+            display: flex;
+
+        }
+         #aa{
+            /* background-image:(red 0deg,red 90deg,yellow 90deg,yellow 180 deg,green 270deg,green 270deg,blue 270deg); */
+            width: 1000px;
+            height: 500px;
+            border-radius: 50%;
+            border: 2px solid black;
+            background-image:conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg,green 180deg,green 270deg,blue 270deg);
+            
+        }
+        #bb>#b1{
+            width:100px;
+            height:30px;
+            background-color: red;
+        }
+        #bb>#b2{
+            width:100px;
+            height: 30px;
+            background-color:yellow;
+        }#bb>#b3{
+            width:100px;
+            height: 30px;
+            background-color:green;
+        }#bb>#b4{
+            width:100px;
+            height: 30px;
+            background-color:blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div id="aa"></div>
+    <div id="bb"><h1>50%</h1>
+        <div id="b1"></div><h1>50%</h1>
+        <div id="b2"></div><h1>50%</h1>
+        <div id="b3"></div><h1>50%</h1>
+        <div id="b4"></div><h1>50%</h1>
+    </div>
+    </div>
+    
+</body>
+</html>
